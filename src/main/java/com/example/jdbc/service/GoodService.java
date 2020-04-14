@@ -17,6 +17,8 @@ public class GoodService {
     TextMapper textMapper;
 
     public Goods getById(long id){
+        System.out.println("已经提交");
+        System.out.println("追加提交");
         return textMapper.getGoodById(id);
     }
 }
