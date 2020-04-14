@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
  **/
 @Service
 public class GoodService {
-    @Autowired
+    @Autowired(required = false)
     TextMapper textMapper;
 
     public Goods getById(long id){
